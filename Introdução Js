@@ -1,11 +1,11 @@
-let num1 =10;
-let num2 =5;
+let num1 = prompt ("Informe o primeiro numero.");
+let num2 =prompt("Digite o segundo valor.");
 let num3 =7;
 let base= num1
 let expoente= num2
 
 let multi = num1 * num2;
-let soma = num1 + num2;
+let soma = Number (num1) + Number(num2);
 let sub =  soma - num2;
 let divisão = multi / num2;
 let potencia=base^expoente;
