@@ -1,0 +1,22 @@
+let num1 =10;
+let num2 =5;
+let num3 =7;
+let base= num1
+let expoente= num2
+
+let multi = num1 * num2;
+let soma = num1 + num2;
+let sub =  soma - num2;
+let divisão = multi / num2;
+let potencia=base^expoente;
+console.log("Soma:" + soma);
+console.log("Prova Real: " + divisão);
+
+soma = soma -1;
+
+console.log("Multiplicação:" + multi);
+console.log("Subtração:" + sub);
+console.log("Valores Utilizados para as expresões ;" + num1 + "e" + num2);
+//Utilizando a classe matematica para fazer o calculo de potencia, onde é passado 2 parametros,sendo eles a base e o expoente de num1 e num2
+const resultado=Math.pow(base,expoente);
+console.log("Potencia é :" + resultado);
